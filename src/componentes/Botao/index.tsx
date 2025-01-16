@@ -4,7 +4,7 @@ import "./Botao.css";
 
 
 interface BotaoProps {
-  children: ReactNode;
+  children: ReactElement | string;
 }
 
 const Botao = (props: BotaoProps) => {
